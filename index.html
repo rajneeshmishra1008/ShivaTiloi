@@ -14,93 +14,11 @@
 
 
  <header>
-  <style>
-    /* Header Styling */
-    header {
-      background-color: #004080;
-      color: #fff;
-      padding: 10px 20px;
-    }
-
-    .header-content {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
-
-    .logo-img {
-      height: 60px;
-    }
-
-    /* Toggle Button Styling */
-    .menu-toggle {
-      width: 30px;
-      height: 22px;
-      cursor: pointer;
-      display: none;
-      flex-direction: column;
-      justify-content: space-between;
-    }
-
-    .menu-toggle span {
-      display: block;
-      height: 4px;
-      background: #fff;
-      border-radius: 2px;
-    }
-
-    /* Navbar */
-    nav ul {
-      list-style: none;
-      display: flex;
-      gap: 20px;
-      margin: 0;
-      padding: 0;
-    }
-
-    nav ul li a {
-      color: #fff;
-      text-decoration: none;
-      font-weight: bold;
-    }
-
-    /* Responsive Styling */
-    @media (max-width: 768px) {
-      .menu-toggle {
-        display: flex;
-      }
-
-      #navbar {
-        display: none;
-        flex-direction: column;
-        background: #004080;
-        padding: 10px 0;
-      }
-
-      #navbar.active {
-        display: flex;
-      }
-
-      nav ul {
-        flex-direction: column;
-        gap: 10px;
-        align-items: center;
-      }
-    }
-  </style>
-
   <div class="header-content">
     <img src="https://www.shivapublicschool.co.in/assets/img/logo/logo.png" alt="School Logo" class="logo-img" />
-    
-    <!-- Toggle Button -->
-    <div class="menu-toggle" onclick="toggleMenu()">
-      <span></span>
-      <span></span>
-      <span></span>
-    </div>
+   <div class="menu-toggle" onclick="toggleMenu()">&#8942;</div>
   </div>
 
-  <!-- Navigation -->
   <nav id="navbar">
     <ul>
       <li><a href="#about">About</a></li>
@@ -111,16 +29,10 @@
       <li><a href="#contact">Contact</a></li>
       <li><a href="#enquiry">Enquiry</a></li>
       <li><a href="#important-links">Links</a></li>
+    
     </ul>
   </nav>
-
-  <script>
-    function toggleMenu() {
-      document.getElementById('navbar').classList.toggle('active');
-    }
-  </script>
 </header>
-
 
 <!-- Notice Board in Header -->
 <div style="background-color: #b61301; padding: 1px 0; border-bottom: 1px solid #ff9900; font-family: Arial, sans-serif;">
