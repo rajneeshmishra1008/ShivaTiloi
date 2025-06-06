@@ -1,0 +1,932 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Shiva Public School</title>
+
+  <!-- AOS Animation CSS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+
+  <header>
+  <div class="header-content">
+    <img src="https://www.shivapublicschool.co.in/assets/img/logo/logo.png" alt="School Logo" class="logo-img" />
+    <div class="logo-text">SHIVA PUBLIC SCHOOL</div>
+    <div class="menu-toggle" onclick="toggleMenu()">&#8942;</div>
+  </div>
+
+  <nav id="navbar">
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#facilities">Facilities</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#events">Events</a></li>
+      <li><a href="#recruitment">Recruitment</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="#enquiry">Enquiry</a></li>
+      <li><a href="#important-links">Links</a></li>
+    
+    </ul>
+  </nav>
+</header>
+
+<!-- Notice Board in Header -->
+<div style="background-color: #b61301; padding: 1px 0; border-bottom: 1px solid #ff9900; font-family: Arial, sans-serif;">
+  <marquee behavior="scroll" direction="left" scrollamount="5" onmouseover="this.stop()" onmouseout="this.start()" style="color: #f4f2ef; font-size: 16px; font-weight: bold;">
+    📢 Admission open for 2025-26 session | WELCOME TO SHIVA PUBLIC SCHOOL | AFFILIATED TO C.B.S.E. BOARD (Affiliation Number : 2132953 & School Code : 70118) | ESTD. : 2002, TILOI, AMETHI, UTTAR PRADESDH 229309 | CALL NOW: +91 99183 19319| 🧑‍🏫 Parent-Teacher Meeting on 15th July 
+  </marquee>
+</div>
+
+ <section class="hero" style="position: relative; text-align: center;">
+  <img src="reception.jpg" alt="School Building" style="width: 100%; height: auto;">
+
+  <div class="hero-text" data-aos="fade-down" style="
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(239, 238, 238, 0.7);
+    padding: 20px 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    color: #000;
+    ">
+    <h1 style="margin: 0;">Welcome to Shiva Public School</h1>
+    <p style="margin: 5px 0 0;">Committed to excellence in education and holistic development</p>
+  </div>
+</section>
+
+
+
+
+  <section id="about" data-aos="fade-up" style="display: flex; align-items: center; gap: 30px;" >
+  <div style="flex: 1;" >
+    <h2>About Us</h2>
+    <p>
+      <h3> Shiva Public School is an educational institution dedicated to providing a high-quality learning environment that nurtures academic excellence, personal growth, and holistic development. Located in a serene and well-connected area, the school aims to create a stimulating atmosphere where students can thrive both academically and socially.
+
+ The school emphasizes a balanced approach to education, integrating academics with extracurricular activities, sports, and arts. It is known for its experienced faculty, modern infrastructure, and commitment to providing a safe and supportive environment for students. With a focus on innovation and inclusivity, Shiva Public School prepares students for the challenges of the future, helping them grow into confident, capable individuals.</h3>
+    </p>
+  </div>
+  <img src="Logo.jpeg" alt="About School" style="max-width: 200px; height: auto; object-fit: contain;" />
+</section>
+
+
+
+  <!-- Facilities -->
+<section id="facilities" data-aos="fade-up" style="padding: 40px 20px; background-color: #fcf7f7;">
+  <h2 style="text-align: center; color: #2e3b4e; margin-bottom: 30px;">Facilities</h2>
+  <div class="facilities-grid" style="display: flex; flex-wrap: wrap; gap: 30px; justify-content: center;">
+
+    <div class="facility" data-aos="zoom-in" data-aos-delay="100" style="background: #e9e7e7; padding: 20px; border-radius: 10px; box-shadow: 0 6px 15px rgba(46, 59, 78, 0.1); width: 280px; text-align: center;">
+      <img src="Library.jpg" alt="Library" style="width: 100%; height: 180px; object-fit: cover; border-radius: 8px;" />
+      <h3 style="color: #2e3b4e; margin: 15px 0 10px;">Library</h3>
+      <p style="color: #555; font-size: 15px;">Modern library with a vast collection of books and digital resources.</p>
+    </div>
+
+    <div class="facility" data-aos="zoom-in" data-aos-delay="200" style="background: #e9e7e7; padding: 20px; border-radius: 10px; box-shadow: 0 6px 15px rgba(46, 59, 78, 0.1); width: 280px; text-align: center;">
+      <img src="lab.jpg" alt="Science Lab" style="width: 100%; height: 180px; object-fit: cover; border-radius: 8px;" />
+      <h3 style="color: #2e3b4e; margin: 15px 0 10px;">Science Labs</h3>
+      <p style="color: #555; font-size: 15px;">Fully equipped labs for physics, chemistry, and biology experiments.</p>
+    </div>
+
+    <div class="facility" data-aos="zoom-in" data-aos-delay="300" style="background: #e9e7e7; padding: 20px; border-radius: 10px; box-shadow: 0 6px 15px rgba(46, 59, 78, 0.1); width: 280px; text-align: center;">
+      <img src="sport.jpg" alt="Sports" style="width: 100%; height: 180px; object-fit: cover; border-radius: 8px;" />
+      <h3 style="color: #2e3b4e; margin: 15px 0 10px;">Sports Ground</h3>
+      <p style="color: #555; font-size: 15px;">Spacious grounds for football, cricket, basketball, and athletics.</p>
+    </div>
+
+    <div class="facility" data-aos="zoom-in" data-aos-delay="400" style="background: #e9e7e7; padding: 20px; border-radius: 10px; box-shadow: 0 6px 15px rgba(46, 59, 78, 0.1); width: 280px; text-align: center;">
+      <img src="computerlab.png" alt="Computer Lab" style="width: 100%; height: 180px; object-fit: cover; border-radius: 8px;" />
+      <h3 style="color: #2e3b4e; margin: 15px 0 10px;">Computer Lab</h3>
+      <p style="color: #555; font-size: 15px;">High-tech computer lab with internet and modern software tools.</p>
+    </div>
+
+    <div class="facility" data-aos="zoom-in" data-aos-delay="300" style="background: #e9e7e7; padding: 20px; border-radius: 10px; box-shadow: 0 6px 15px rgba(46, 59, 78, 0.1); width: 280px; text-align: center;">
+      <img src="sport.jpg" alt="Sports" style="width: 100%; height: 180px; object-fit: cover; border-radius: 8px;" />
+      <h3 style="color: #2e3b4e; margin: 15px 0 10px;">Sports Ground</h3>
+      <p style="color: #555; font-size: 15px;">Spacious grounds for football, cricket, basketball, and athletics.</p>
+    </div>
+    <div class="facility" data-aos="zoom-in" data-aos-delay="300" style="background: #e9e7e7; padding: 20px; border-radius: 10px; box-shadow: 0 6px 15px rgba(46, 59, 78, 0.1); width: 280px; text-align: center;">
+      <img src="sport.jpg" alt="Sports" style="width: 100%; height: 180px; object-fit: cover; border-radius: 8px;" />
+      <h3 style="color: #2e3b4e; margin: 15px 0 10px;">Sports Ground</h3>
+      <p style="color: #555; font-size: 15px;">Spacious grounds for football, cricket, basketball, and athletics.</p>
+    </div>
+
+  </div>
+
+  <div style="text-align: center; margin-top: 40px;">
+  <button
+    style="
+      background-color: #2e3b4e;
+      color: white;
+      border: none;
+      padding: 12px 30px;
+      font-size: 16px;
+      border-radius: 25px;
+      cursor: pointer;
+      box-shadow: 0 4px 12px rgba(46, 59, 78, 0.3);
+      transition: background-color 0.3s ease;
+    "
+    onmouseover="this.style.backgroundColor='#1f2740'"
+    onmouseout="this.style.backgroundColor='#2e3b4e'"
+    onclick="window.location.href='facility.html';"
+  >
+    View More
+  </button>
+</div>
+
+</section>
+
+<div class="svg-divider flip">
+  <svg viewBox="0 0 1440 100" preserveAspectRatio="none">
+    <path fill="#2e3b4e" d="M0,100 C600,0 900,100 1440,0 L1440,100 L0,100 Z"></path>
+  </svg>
+</div>
+
+
+  <section id="gallery" style="padding: 50px 20px; background: #fefefe; max-width: 960px; margin: 0 auto; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+  <h2 style="text-align: center; color: #3a3a3a; font-weight: 700; font-size: 2.8rem; margin-bottom: 45px; letter-spacing: 0.05em;">
+    School Gallery
+  </h2>
+
+  <div class="gallery-container" style="display: flex; gap: 30px;">
+
+    <!-- Thumbnail list -->
+    <div id="thumbnails" style="
+      flex: 1;
+      max-width: 160px;
+      overflow-y: auto;
+      max-height: 580px;
+      border-right: 2px solid #ccc;
+      padding-right: 20px;
+      scrollbar-width: thin;
+      scrollbar-color: #888 #eee;
+      ">
+      <!-- Thumbnails inserted via JS -->
+    </div>
+
+    <!-- Large image & caption -->
+    <div style="flex: 3; text-align: center; position: relative;">
+      <div style="position: relative; overflow: hidden; border-radius: 18px; box-shadow: 0 14px 32px rgba(0,0,0,0.12);">
+        <img
+          id="largeImage"
+          src=""
+          alt=""
+          style="
+            width: 100%;
+            max-height: 580px;
+            object-fit: cover;
+            transition: opacity 0.7s ease, transform 0.7s ease;
+            cursor: zoom-in;
+            user-select: none;
+          "
+          draggable="false"
+        />
+      </div>
+
+      <p id="imageCaption" style="
+        margin-top: 18px;
+        font-size: 1.25rem;
+        color: #555;
+        font-weight: 600;
+        user-select: none;
+        min-height: 30px;
+      "></p>
+
+      <a id="downloadBtn" href="#" download style="
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        margin-top: 28px;
+        padding: 12px 30px;
+        background: #6d0c0c;
+        color: white;
+        font-weight: 600;
+        font-size: 1rem;
+        border-radius: 30px;
+        text-decoration: none;
+        box-shadow: 0 6px 15px rgba(109,12,12,0.5);
+        transition: background-color 0.3s ease, box-shadow 0.3s ease;
+        user-select: none;
+      " onmouseover="this.style.background='#8b1515'; this.style.boxShadow='0 8px 20px rgba(139,21,21,0.7)';" onmouseout="this.style.background='#6d0c0c'; this.style.boxShadow='0 6px 15px rgba(109,12,12,0.5)';">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="white" height="20" width="20" viewBox="0 0 24 24" style="filter: drop-shadow(0 0 1px black);">
+          <path d="M5 20h14v-2H5v2zm7-18L5.33 9h3.34v6h4.66v-6h3.34L12 2z"/>
+        </svg>
+        Download
+      </a>
+    </div>
+  </div>
+</section>
+
+<style>
+  /* Scrollbar styling for thumbnails */
+  #thumbnails::-webkit-scrollbar {
+    width: 8px;
+  }
+  #thumbnails::-webkit-scrollbar-track {
+    background: #eee;
+    border-radius: 8px;
+  }
+  #thumbnails::-webkit-scrollbar-thumb {
+    background-color: #6d0c0c;
+    border-radius: 8px;
+  }
+
+  /* Thumbnails styling */
+  .thumb {
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
+    margin-bottom: 18px;
+    border-radius: 15px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.08);
+    cursor: pointer;
+    opacity: 0.75;
+    filter: drop-shadow(0 1px 3px rgba(0,0,0,0.06));
+    transition: transform 0.4s ease, opacity 0.3s ease, box-shadow 0.4s ease;
+  }
+  .thumb:hover {
+    opacity: 1;
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(109, 12, 12, 0.35), 0 0 8px rgba(255, 70, 70, 0.25);
+  }
+  .thumb.active {
+    border: 3px solid #b22222;
+    box-shadow: 0 0 24px 3px #b22222;
+    opacity: 1;
+    transform: scale(1.1);
+  }
+</style>
+
+<script>
+  // Array of image objects
+  const images = [
+    {src: 'sps1.webp'},
+    {src: 'sps2.webp'},
+    {src: 'sps3.webp'},
+    {src: 'sps4.webp'},
+    {src: 'sps5.webp'},
+    {src: 'sps6.webp'},
+    {src: 'sps7.webp'},
+    {src: 'sps8.webp'},
+    {src: 'sps9.webp'},
+    {src: 'sps10.webp'},
+    {src: 'sps11.webp'},
+    {src: 'sps12.webp'},
+    {src: 'sps13.webp'},
+    {src: 'sps14.webp'},
+    {src: 'sps15.webp'},
+    {src: 'sps16.webp'},
+    {src: 'sps17.webp'},
+    {src: 'sps18.webp'},
+    {src: 'sps19.webp'},
+    {src: 'sps20.webp'},
+    {src: 'sps21.webp'},
+    {src: 'sps22.webp'},
+    {src: 'sps23.webp'},
+    {src: 'sps24.webp'},
+    {src: 'sps25.webp'},
+    {src: 'sps26.webp'},
+    {src: 'sps27.webp'},
+    {src: 'sps28.webp'},
+    {src: 'sps29.webp'},
+    {src: 'sps30.webp'},
+    {src: 'sps31.webp'},
+    {src: 'sps32.webp'},
+    {src: 'sps33.webp'},
+    {src: 'sps34.webp'},
+    {src: 'sps35.webp'},
+
+    
+    
+    // Add more images if needed
+  ];
+
+  const thumbnailsContainer = document.getElementById('thumbnails');
+  const largeImage = document.getElementById('largeImage');
+  const imageCaption = document.getElementById('imageCaption');
+  const downloadBtn = document.getElementById('downloadBtn');
+
+  // Function to create thumbnails
+  function createThumbnails() {
+    images.forEach((img, index) => {
+      const thumb = document.createElement('img');
+      thumb.src = img.src;
+      thumb.alt = img.alt;
+      thumb.classList.add('thumb');
+      if (index === 0) thumb.classList.add('active');
+      thumb.addEventListener('click', () => {
+        setActiveImage(index);
+      });
+      thumbnailsContainer.appendChild(thumb);
+    });
+  }
+
+  // Set the main large image and caption
+  function setActiveImage(index) {
+    const selectedImage = images[index];
+
+    // Animate fade-out then fade-in for large image
+    largeImage.style.opacity = 0;
+    setTimeout(() => {
+      largeImage.src = selectedImage.src;
+      largeImage.alt = selectedImage.alt;
+      imageCaption.textContent = selectedImage.alt;
+      downloadBtn.href = selectedImage.src;
+      downloadBtn.download = selectedImage.src.split('/').pop();
+      largeImage.style.opacity = 1;
+    }, 300);
+
+    // Update active thumbnail styling
+    const allThumbs = document.querySelectorAll('.thumb');
+    allThumbs.forEach((thumb, i) => {
+      if(i === index) thumb.classList.add('active');
+      else thumb.classList.remove('active');
+    });
+  }
+
+  // Initialize gallery on page load
+  window.onload = () => {
+    createThumbnails();
+    setActiveImage(0);
+  };
+</script>
+
+
+
+
+
+<!-- Messages -->
+<section id="messages" data-aos="fade-up" style="max-width: 1000px; margin: auto; padding: 40px 20px; font-family: Arial, sans-serif;" >
+  <h2 style="text-align: center; color: #2e3b4e; font-weight: 800; font-size: 2.5rem; margin-bottom: 40px;">
+    Messages from Leaders
+  </h2>
+
+  <div style="display: flex; justify-content: space-between; gap: 30px; flex-wrap: wrap; background-color: #f9f4fa;">
+
+    <!-- Principal Message -->
+    <div style="background: #f0f4f9; border-radius: 15px; padding: 25px; flex: 1; max-width: 320px; box-shadow: 0 6px 16px rgba(46,59,78,0.1); text-align: center;">
+      <img src="PRINCIPAL.jpg" alt="Principal" style="width: 140px; height: 140px; object-fit: cover; border-radius: 50%; margin-bottom: 15px; border: 4px solid #5c86f0;" />
+      <h3 style="color: #2e3b4e;">Principal's Message</h3>
+      <p id="msg1" style="font-style: italic; color: #555;">"Education is the key to unlocking the future..."</p>
+      <button onclick="toggleMsg('msg1', this, 'Education is the key to unlocking the future. We nurture our students to be responsible and creative citizens.')" style="margin-top: 10px; background-color: #5c86f0; color: white; border: none; padding: 10px 24px; border-radius: 25px; cursor: pointer;">View More</button>
+    </div>
+
+    <!-- Founder Message -->
+    <div style="background: #f0f4f9; border-radius: 15px; padding: 25px; flex: 1; max-width: 320px; box-shadow: 0 6px 16px rgba(46,59,78,0.1); text-align: center;">
+      <img src="Founder.jpg" alt="Founder" style="width: 140px; height: 140px; object-fit: cover; border-radius: 50%; margin-bottom: 15px; border: 4px solid #5c86f0;" />
+      <h3 style="color: #2e3b4e;">Founder's Message</h3>
+      <p id="msg2" style="font-style: italic; color: #555;">"Built on the foundation of integrity..."</p>
+      <button onclick="toggleMsg('msg2', this, 'Shiva Public School was built on the foundation of integrity, discipline, and excellence.')" style="margin-top: 10px; background-color: #5c86f0; color: white; border: none; padding: 10px 24px; border-radius: 25px; cursor: pointer;">View More</button>
+    </div>
+
+    <!-- Manager Message -->
+    <div style="background: #f0f4f9; border-radius: 15px; padding: 25px; flex: 1; max-width: 320px; box-shadow: 0 6px 16px rgba(46,59,78,0.1); text-align: center;">
+      <img src="manager.jpg" alt="Manager" style="width: 140px; height: 140px; object-fit: cover; border-radius: 50%; margin-bottom: 15px; border: 4px solid #5c86f0;" />
+      <h3 style="color: #2e3b4e;">Manager's Message</h3>
+      <p id="msg3" style="font-style: italic; color: #555;">"We are committed to providing a safe..."</p>
+      <button onclick="toggleMsg('msg3', this, 'We are committed to providing a safe and nurturing environment for every student.')" style="margin-top: 10px; background-color: #5c86f0; color: white; border: none; padding: 10px 24px; border-radius: 25px; cursor: pointer;">View More</button>
+    </div>
+
+  </div>
+</section>
+
+<!-- JS for toggling -->
+<script>
+  function toggleMsg(id, btn, fullText) {
+    const para = document.getElementById(id);
+    const isShort = btn.textContent === 'View More';
+    const shortText = para.textContent.split(" ")[0] + "...";
+
+    if (isShort) {
+      para.textContent = fullText;
+      btn.textContent = "View Less";
+    } else {
+      para.textContent = shortText;
+      btn.textContent = "View More";
+    }
+  }
+</script>
+
+
+
+  <!-- Events -->
+<section id="events" data-aos="fade-up" style="padding: 50px 20px; background: #ededed; max-width: 720px; margin: 40px auto; border-radius: 14px; box-shadow: 0 8px 28px rgba(46, 59, 78, 0.12); font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+  <h2 style="text-align: center; color: #2e3b4e; font-weight: 800; font-size: 2.5rem; position: relative; margin-bottom: 40px;">
+    Upcoming Events
+    <span style="
+      display: block;
+      width: 80px;
+      height: 4px;
+      margin: 12px auto 0;
+      background: linear-gradient(90deg, #2e3b4e, #5c86f0);
+      border-radius: 2px;
+    "></span>
+  </h2>
+  <ul style="list-style: none; padding: 0; margin: 0;">
+    <li style="
+      background: white; 
+      margin-bottom: 24px; 
+      padding: 22px 30px; 
+      border-radius: 10px; 
+      box-shadow: 0 6px 18px rgba(46, 59, 78, 0.1); 
+      display: flex; 
+      justify-content: space-between; 
+      align-items: center; 
+      cursor: default;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    " 
+    onmouseover="this.style.transform='scale(1.03)'; this.style.boxShadow='0 10px 30px rgba(46, 59, 78, 0.15)';"
+    onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 6px 18px rgba(46, 59, 78, 0.1)';">
+      <strong style="color: #2e3b4e; font-size: 1.2rem;">Annual Day</strong>
+      <span style="
+        background: #5c86f0; 
+        color: white; 
+        padding: 6px 16px; 
+        border-radius: 20px; 
+        font-weight: 600;
+        font-size: 0.9rem;
+        box-shadow: 0 2px 6px rgba(92, 134, 240, 0.4);
+      ">20th July 2025</span>
+    </li>
+    <li style="
+      background: white; 
+      margin-bottom: 24px; 
+      padding: 22px 30px; 
+      border-radius: 10px; 
+      box-shadow: 0 6px 18px rgba(46, 59, 78, 0.1); 
+      display: flex; 
+      justify-content: space-between; 
+      align-items: center; 
+      cursor: default;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    "
+    onmouseover="this.style.transform='scale(1.03)'; this.style.boxShadow='0 10px 30px rgba(46, 59, 78, 0.15)';"
+    onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 6px 18px rgba(46, 59, 78, 0.1)';">
+      <strong style="color: #2e3b4e; font-size: 1.2rem;">Science Exhibition</strong>
+      <span style="
+        background: #5c86f0; 
+        color: white; 
+        padding: 6px 16px; 
+        border-radius: 20px; 
+        font-weight: 600;
+        font-size: 0.9rem;
+        box-shadow: 0 2px 6px rgba(92, 134, 240, 0.4);
+      ">5th August 2025</span>
+    </li>
+    <li style="
+      background: white; 
+      margin-bottom: 24px; 
+      padding: 22px 30px; 
+      border-radius: 10px; 
+      box-shadow: 0 6px 18px rgba(46, 59, 78, 0.1); 
+      display: flex; 
+      justify-content: space-between; 
+      align-items: center; 
+      cursor: default;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    "
+    onmouseover="this.style.transform='scale(1.03)'; this.style.boxShadow='0 10px 30px rgba(46, 59, 78, 0.15)';"
+    onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='0 6px 18px rgba(46, 59, 78, 0.1)';">
+      <strong style="color: #2e3b4e; font-size: 1.2rem;">Sports Day</strong>
+      <span style="
+        background: #5c86f0; 
+        color: white; 
+        padding: 6px 16px; 
+        border-radius: 20px; 
+        font-weight: 600;
+        font-size: 0.9rem;
+        box-shadow: 0 2px 6px rgba(92, 134, 240, 0.4);
+      ">10th September 2025</span>
+    </li>
+  </ul>
+</section>
+
+
+
+
+  <!-- Recruitment Form -->
+<section id="recruitment" data-aos="fade-up" style="
+  max-width: 700px;
+  margin: 50px auto;
+  padding: 40px 30px;
+  background: #f5edf3;
+  border-radius: 14px;
+  box-shadow: 0 8px 24px rgba(46, 59, 78, 0.1);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  ">
+  <h2 style="
+    color: #2e3b4e;
+    font-weight: 800;
+    font-size: 2.4rem;
+    margin-bottom: 25px;
+    text-align: center;
+    position: relative;
+  ">
+    Recruitment Form
+    <span style="
+      display: block;
+      width: 90px;
+      height: 5px;
+      margin: 12px auto 0;
+      background: linear-gradient(90deg, #2e3b4e, #5c86f0);
+      border-radius: 3px;
+    "></span>
+  </h2>
+
+  <form action="#" method="POST" enctype="multipart/form-data" style="display: flex; flex-direction: column; gap: 20px;">
+    
+    <label style="font-weight: 600; color: #2e3b4e;">
+      Full Name <span style="color: red;">*</span>
+      <input type="text" name="fullname" required placeholder="Enter your full name" style="
+        width: 100%;
+        padding: 12px 15px;
+        margin-top: 6px;
+        border: 1.8px solid #cbd5e1;
+        border-radius: 8px;
+        font-size: 1rem;
+        transition: border-color 0.3s ease;
+      " onfocus="this.style.borderColor='#5c86f0'" onblur="this.style.borderColor='#cbd5e1'">
+    </label>
+
+    <label style="font-weight: 600; color: #2e3b4e;">
+      Email Address <span style="color: red;">*</span>
+      <input type="email" name="email" required placeholder="Enter your email address" style="
+        width: 100%;
+        padding: 12px 15px;
+        margin-top: 6px;
+        border: 1.8px solid #cbd5e1;
+        border-radius: 8px;
+        font-size: 1rem;
+        transition: border-color 0.3s ease;
+      " onfocus="this.style.borderColor='#5c86f0'" onblur="this.style.borderColor='#cbd5e1'">
+    </label>
+
+    <label style="font-weight: 600; color: #2e3b4e;">
+      Phone Number <span style="color: red;">*</span>
+      <input type="tel" name="phone" required placeholder="Enter your phone number" pattern="[0-9]{10}" title="10 digit phone number" style="
+        width: 100%;
+        padding: 12px 15px;
+        margin-top: 6px;
+        border: 1.8px solid #cbd5e1;
+        border-radius: 8px;
+        font-size: 1rem;
+        transition: border-color 0.3s ease;
+      " onfocus="this.style.borderColor='#5c86f0'" onblur="this.style.borderColor='#cbd5e1'">
+    </label>
+
+    <label style="font-weight: 600; color: #2e3b4e;">
+      Position Applied For <span style="color: red;">*</span>
+      <select name="position" required style="
+        width: 100%;
+        padding: 12px 15px;
+        margin-top: 6px;
+        border: 1.8px solid #cbd5e1;
+        border-radius: 8px;
+        font-size: 1rem;
+        cursor: pointer;
+        transition: border-color 0.3s ease;
+      " onfocus="this.style.borderColor='#5c86f0'" onblur="this.style.borderColor='#cbd5e1'">
+        <option value="" disabled selected>Select a position</option>
+        <option value="teacher">Teacher</option>
+        <option value="admin_staff">Administrative Staff</option>
+        <option value="librarian">Librarian</option>
+        <option value="sports_coach">Sports Coach</option>
+        <option value="support_staff">Support Staff</option>
+      </select>
+    </label>
+
+    <label style="font-weight: 600; color: #2e3b4e;">
+      Work Experience (Years)
+      <input type="number" name="experience" min="0" max="50" placeholder="Enter number of years" style="
+        width: 100%;
+        padding: 12px 15px;
+        margin-top: 6px;
+        border: 1.8px solid #cbd5e1;
+        border-radius: 8px;
+        font-size: 1rem;
+        transition: border-color 0.3s ease;
+      " onfocus="this.style.borderColor='#5c86f0'" onblur="this.style.borderColor='#cbd5e1'">
+    </label>
+
+    <label style="font-weight: 600; color: #2e3b4e;">
+      Previous Employer
+      <input type="text" name="previous_employer" placeholder="Where have you worked in the past?" style="
+        width: 100%;
+        padding: 12px 15px;
+        margin-top: 6px;
+        border: 1.8px solid #cbd5e1;
+        border-radius: 8px;
+        font-size: 1rem;
+        transition: border-color 0.3s ease;
+      " onfocus="this.style.borderColor='#5c86f0'" onblur="this.style.borderColor='#cbd5e1'">
+    </label>
+
+    <label style="font-weight: 600; color: #2e3b4e;">
+      Upload Resume/CV <span style="color: red;">*</span>
+      <input type="file" name="resume" required accept=".pdf,.doc,.docx" style="
+        width: 100%;
+        margin-top: 6px;
+        font-size: 1rem;
+        cursor: pointer;
+        border-radius: 8px;
+        border: 1.8px solid #cbd5e1;
+        padding: 6px 10px;
+        transition: border-color 0.3s ease;
+      " onfocus="this.style.borderColor='#5c86f0'" onblur="this.style.borderColor='#cbd5e1'">
+    </label>
+
+    <label style="font-weight: 600; color: #2e3b4e;">
+      Message (Optional)
+      <textarea name="message" rows="4" placeholder="Write a brief message or cover letter" style="
+        width: 100%;
+        padding: 12px 15px;
+        margin-top: 6px;
+        border: 1.8px solid #cbd5e1;
+        border-radius: 8px;
+        font-size: 1rem;
+        resize: vertical;
+        transition: border-color 0.3s ease;
+      " onfocus="this.style.borderColor='#5c86f0'" onblur="this.style.borderColor='#cbd5e1'"></textarea>
+    </label>
+
+    <button type="submit" style="
+      background-color: #5c86f0;
+      color: white;
+      padding: 15px 0;
+      font-size: 1.15rem;
+      font-weight: 700;
+      border: none;
+      border-radius: 30px;
+      cursor: pointer;
+      box-shadow: 0 6px 18px rgba(92, 134, 240, 0.5);
+      transition: background-color 0.3s ease;
+    "
+    onmouseover="this.style.backgroundColor='#3a62b9';"
+    onmouseout="this.style.backgroundColor='#5c86f0';"
+    >
+      Submit Application
+    </button>
+  </form>
+</section>
+
+
+
+  
+
+
+  <!-- Important Links -->
+<section id="important-links" data-aos="fade-up" style="padding: 50px 20px; background-color: #f5f5f5; font-family: Arial, sans-serif;">
+  <h2 style="text-align: center; color: #2e3b4e; font-size: 2.5rem; margin-bottom: 40px;">Important Links</h2>
+
+  <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 20px; max-width: 1000px; margin: auto;">
+    
+    <a href="https://www.aktu.ac.in" target="_blank" rel="noopener" style="text-decoration: none; flex: 1 1 200px; max-width: 220px;">
+      <div style="background: #f0f0f0; padding: 20px; border-radius: 15px; box-shadow: 0 6px 12px rgba(0,0,0,0.1); transition: transform 0.3s, box-shadow 0.3s; text-align: center;">
+        <h3 style="color: #2e3b4e;">AKTU Official</h3>
+        <p style="color: #555; font-size: 14px;">Visit Dr. A.P.J. Abdul Kalam Technical University site.</p>
+      </div>
+    </a>
+
+    <a href="https://www.cbse.nic.in" target="_blank" rel="noopener" style="text-decoration: none; flex: 1 1 200px; max-width: 220px;">
+      <div style="background: #f0f0f0; padding: 20px; border-radius: 15px; box-shadow: 0 6px 12px rgba(0,0,0,0.1); transition: transform 0.3s, box-shadow 0.3s; text-align: center;">
+        <h3 style="color: #2e3b4e;">CBSE Website</h3>
+        <p style="color: #555; font-size: 14px;">Central Board of Secondary Education.</p>
+      </div>
+    </a>
+
+    
+
+    <a href="https://www.shivapublicschool.com/admission" target="_blank" rel="noopener" style="text-decoration: none; flex: 1 1 200px; max-width: 220px;">
+      <div style="background: #f0f0f0; padding: 20px; border-radius: 15px; box-shadow: 0 6px 12px rgba(0,0,0,0.1); transition: transform 0.3s, box-shadow 0.3s; text-align: center;">
+        <h3 style="color: #2e3b4e;">Admission Portal</h3>
+        <p style="color: #555; font-size: 14px;">Apply online for school admission.</p>
+      </div>
+    </a>
+
+  </div>
+</section>
+
+<!-- Optional JS for Hover Effect -->
+<script>
+  const cards = document.querySelectorAll("#important-links a div");
+  cards.forEach(card => {
+    card.addEventListener("mouseover", () => {
+      card.style.transform = "translateY(-5px)";
+      card.style.boxShadow = "0 8px 16px rgba(0,0,0,0.2)";
+    });
+    card.addEventListener("mouseout", () => {
+      card.style.transform = "translateY(0)";
+      card.style.boxShadow = "0 6px 12px rgba(0,0,0,0.1)";
+    });
+  });
+</script>
+
+
+  
+
+  <!-- Reviews Section -->
+<section id="reviews" data-aos="fade-up" style="padding: 60px 20px; background: #f4eff2; font-family: 'Segoe UI', sans-serif;">
+  <h2 style="text-align: center; font-size: 2.8rem; color: #2e3b4e; margin-bottom: 30px;">🌟 What People Are Saying</h2>
+
+  <!-- Reviews List -->
+  <ul style="list-style-type: none; padding: 0; max-width: 900px; margin: 0 auto;">
+    <li style="background: #ffffff; border-left: 5px solid #1f3c88; padding: 15px 20px; margin-bottom: 15px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.05);">
+      “The school has a very nurturing environment. My child loves the teachers and facilities!” – <strong>Parent</strong>
+    </li>
+    <li style="background: #ffffff; border-left: 5px solid #1f3c88; padding: 15px 20px; margin-bottom: 15px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.05);">
+      “Excellent academic programs combined with extracurricular activities make this school stand out.” – <strong>Student</strong>
+    </li>
+    <li style="background: #ffffff; border-left: 5px solid #1f3c88; padding: 15px 20px; margin-bottom: 15px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.05);">
+      “Great management and supportive staff. Highly recommended!” – <strong>Alumni</strong>
+    </li>
+  </ul>
+
+  <!-- Add Review Button -->
+  <div style="text-align: center; margin-top: 30px;">
+    <button onclick="toggleReviewForm()" style="
+      background-color: #1f3c88;
+      color: white;
+      padding: 12px 30px;
+      font-size: 16px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    " onmouseover="this.style.backgroundColor='#162d63'" onmouseout="this.style.backgroundColor='#1f3c88'">
+      ➕ Add Review
+    </button>
+  </div>
+
+  <!-- Review Form (Hidden by default) -->
+  <div id="reviewForm" style="display: none; margin-top: 40px; max-width: 700px; margin-left: auto; margin-right: auto; background: #ffffff; padding: 30px; border-radius: 12px; box-shadow: 0 6px 18px rgba(0,0,0,0.1);">
+    <h3 style="text-align: center; margin-bottom: 25px; font-size: 1.8rem; color: #2e3b4e;">📝 Submit Your Review</h3>
+    <form>
+      <label style="font-weight: 600;">Full Name:</label>
+      <input type="text" placeholder="Your Name" style="width: 100%; padding: 12px; margin: 10px 0 20px; border: 1px solid #ccc; border-radius: 8px;" required>
+
+      <label style="font-weight: 600;">Your Role:</label>
+      <select style="width: 100%; padding: 12px; margin-bottom: 20px; border: 1px solid #ccc; border-radius: 8px;">
+        <option>Parent</option>
+        <option>Student</option>
+        <option>Alumni</option>
+        <option>Visitor</option>
+      </select>
+
+      <label style="font-weight: 600;">Your Review:</label>
+      <textarea rows="4" placeholder="Write your review..." style="width: 100%; padding: 12px; border: 1px solid #ccc; border-radius: 8px;" required></textarea>
+
+      <button type="submit" style="
+        margin-top: 20px;
+        background-color: #2e3b4e;
+        color: white;
+        padding: 12px 30px;
+        border: none;
+        border-radius: 8px;
+        font-size: 16px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+      " onmouseover="this.style.backgroundColor='#1a2a3f'" onmouseout="this.style.backgroundColor='#2e3b4e'">
+        Submit Review
+      </button>
+    </form>
+  </div>
+</section>
+
+<!-- JS to toggle review form -->
+<script>
+  function toggleReviewForm() {
+    var form = document.getElementById('reviewForm');
+    if (form.style.display === "none") {
+      form.style.display = "block";
+      form.scrollIntoView({ behavior: "smooth" });
+    } else {
+      form.style.display = "none";
+    }
+  }
+</script>
+
+
+ <!-- Enquiry Form -->
+<section id="enquiry" data-aos="fade-up" style="padding: 60px 20px; background: #fff9fe; font-family: 'Segoe UI', sans-serif;">
+  <h2 style="text-align: center; font-size: 2.5rem; color: #2e3b4e; margin-bottom: 30px;">📬 Enquiry Form</h2>
+
+  <form id="enquiryForm" style="max-width: 700px; margin: 0 auto; background: #fdf9f9; padding: 30px; border-radius: 12px; box-shadow: 0 6px 20px rgba(0,0,0,0.08);">
+    <input type="text" name="name" placeholder="Your Name" required style="width: 100%; padding: 14px; margin-bottom: 20px; border: 1px solid #ccc; border-radius: 8px; font-size: 16px;" />
+
+    <input type="email" name="email" placeholder="Your Email" required style="width: 100%; padding: 14px; margin-bottom: 20px; border: 1px solid #ccc; border-radius: 8px; font-size: 16px;" />
+
+    <input type="tel" name="phone" placeholder="Your Phone" required style="width: 100%; padding: 14px; margin-bottom: 20px; border: 1px solid #ccc; border-radius: 8px; font-size: 16px;" />
+
+    <textarea name="message" rows="5" placeholder="Your Message" required style="width: 100%; padding: 14px; margin-bottom: 25px; border: 1px solid #ccc; border-radius: 8px; font-size: 16px;"></textarea>
+
+    <button type="submit" style="
+      width: 100%;
+      background-color: #2e3b4e;
+      color: #ffffff;
+      border: none;
+      padding: 14px;
+      font-size: 17px;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    "
+    onmouseover="this.style.backgroundColor='#1f2f3e'"
+    onmouseout="this.style.backgroundColor='#2e3b4e'">
+      Submit Enquiry
+    </button>
+  </form>
+
+  <p id="formResponse" style="text-align: center; margin-top: 20px; color: green; font-weight: 500;" class="form-response"></p>
+</section>
+
+
+  <!-- Contact Us -->
+<section id="contact" data-aos="fade-up" style="padding: 40px 20px; font-family: Arial, sans-serif; max-width: 1100px; margin: auto; background-color: #f2f2f2;" >
+  <h2 style="text-align: center; margin-bottom: 40px; font-size: 2.5rem; color: #333;">Contact Us</h2>
+  
+  <div style="display: flex; flex-wrap: wrap; gap: 30px; align-items: flex-start; justify-content: center; ">
+    
+    <!-- Contact Info -->
+    <div style="flex: 1 1 350px; min-width: 280px; color: #222;">
+      <p style="font-size: 1.1rem; margin-bottom: 20px;"><strong>Address:</strong> Jamodep , Tiloi to chiluli Road , Amethi - 229309</p>
+      <p style="font-size: 1.1rem; margin-bottom: 20px;"><strong>Email:</strong> <a href="mailto:info@shivapublicschool.com" style="color: #0066cc; text-decoration: none;">info@shivapublicschool.com</a></p>
+      <p style="font-size: 1.1rem;"><strong>Phone:</strong> <a href="tel:9918300393" style="color: #0066cc; text-decoration: none;">9918300393 , 9984588881</a></p>
+    </div>
+     <!-- Map -->
+    <div style="flex: 1 1 450px; min-width: 280px; border-radius: 10px; overflow: hidden; box-shadow: 0 6px 15px rgba(0,0,0,0.1);">
+  <iframe
+    src="https://www.google.com/maps/place/SHIVA+PUBLIC+SCHOOL/@26.4025693,81.4648011,17z/data=!4m14!1m7!3m6!1s0x399bb35f6017a24d:0xc2bceb68c1889cc0!2sSHIVA+PUBLIC+SCHOOL!8m2!3d26.4025694!4d81.469672!16s%2Fg%2F11f7c9lcyp!3m5!1s0x399bb35f6017a24d:0xc2bceb68c1889cc0!8m2!3d26.4025694!4d81.469672!16s%2Fg%2F11f7c9lcyp?entry=ttu&g_ep=EgoyMDI1MDYwMi4wIKXMDSoASAFQAw%3D%3D"
+    width="100%"
+    height="300"
+    style="border:0;"
+    allowfullscreen=""
+    loading="lazy"
+    referrerpolicy="no-referrer-when-downgrade"
+  ></iframe>
+</div>
+</section>
+
+
+  <footer style="background-color: #2e3b4e; color: #fff; padding: 40px 20px; font-family: Arial, sans-serif;">
+
+  <!-- Footer Container -->
+  <div style="max-width: 1200px; margin: auto; display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-start; gap: 30px;">
+
+    <!-- Logo & School Name -->
+    <div style="flex: 1 1 250px; text-align: center;">
+      <img src="Logo.jpeg" alt="Shiva Public School Logo" style="width: 80px; height: 80px; object-fit: contain; margin-bottom: 10px;" />
+      <h3 style="margin: 10px 0 0;">Shiva Public School</h3>
+      <p style="font-size: 14px; color: #ccc;">Inspiring Excellence Since 2011</p>
+    </div>
+
+    <!-- Quick Links -->
+    <div style="flex: 1 1 250px;">
+      <h4 style="margin-bottom: 15px; border-bottom: 1px solid #777; padding-bottom: 5px;">Quick Links</h4>
+      <ul style="list-style: none; padding: 0;">
+        <li><a href="#about" style="color: #fff; text-decoration: none;">About Us</a></li>
+        <li><a href="#admission" style="color: #fff; text-decoration: none;">Admissions</a></li>
+        <li><a href="#gallery" style="color: #fff; text-decoration: none;">Gallery</a></li>
+        <li><a href="#contact" style="color: #fff; text-decoration: none;">Contact Us</a></li>
+      </ul>
+    </div>
+
+    <!-- Follow Us -->
+    <div style="flex: 1 1 250px;">
+      <h4 style="margin-bottom: 15px; border-bottom: 1px solid #777; padding-bottom: 5px;">Follow Us</h4>
+      <p>Stay connected through our social media:</p>
+      <div style="display: flex; gap: 15px; margin-top: 10px;">
+        <a href="https://www.instagram.com/shivapublicschooltiloi?igsh=dTVoZWp0N295Yms4" target="_blank" style="color: #fff; font-size: 20px; text-decoration: none;">📸 Instagram</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bottom Bar -->
+  <div style="text-align: center; border-top: 1px solid #444; margin-top: 30px; padding-top: 15px; font-size: 14px; color: #aaa;">
+  &copy; 2025 <strong>Shiva Public School</strong>. All rights reserved.<br>
+  Developed by <strong>Rajneesh Kumar Mishra</strong> | 📧 <a href="mailto:rm0983913@gmail.com" style="color: #ccc; text-decoration: none;">rm0983913@gmail.com</a> | 📞 <a href="tel:8948277840" style="color: #ccc; text-decoration: none;">8948277840</a>
+</div>
+
+</footer>
+
+
+  <!-- AOS Animation JS -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <!-- Custom JS -->
+  <script src="script.js"></script>
+
+  <script>
+    AOS.init({
+      duration: 1000,
+      once: true
+    });
+  </script>
+
+</body>
+</html>
