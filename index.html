@@ -64,17 +64,94 @@
 
 
 
-  <section id="about" data-aos="fade-up" style="display: flex; align-items: center; gap: 30px;" >
-  <div style="flex: 1;" >
-    <h2>About Us</h2>
-    <p>
-      <h3> Shiva Public School is an educational institution dedicated to providing a high-quality learning environment that nurtures academic excellence, personal growth, and holistic development. Located in a serene and well-connected area, the school aims to create a stimulating atmosphere where students can thrive both academically and socially.
+ <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
 
- The school emphasizes a balanced approach to education, integrating academics with extracurricular activities, sports, and arts. It is known for its experienced faculty, modern infrastructure, and commitment to providing a safe and supportive environment for students. With a focus on innovation and inclusivity, Shiva Public School prepares students for the challenges of the future, helping them grow into confident, capable individuals.</h3>
-    </p>
-  </div>
-  <img src="Logo.jpeg" alt="About School" style="max-width: 200px; height: auto; object-fit: contain;" />
-</section>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    #about {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 40px;
+      padding: 40px 20px;
+      background: linear-gradient(to right, #ffffff, #f0f0f0);
+      flex-wrap: wrap;
+    }
+
+    #about h2 {
+      font-size: 32px;
+      color: #6d0c0c;
+      margin-bottom: 15px;
+    }
+
+    #about h3 {
+      font-size: 18px;
+      font-weight: normal;
+    }
+
+    #about img {
+      max-width: 250px;
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    @media (max-width: 768px) {
+      #about {
+        flex-direction: column-reverse;
+        text-align: center;
+      }
+
+      #about img {
+        max-width: 200px;
+        margin-bottom: 20px;
+      }
+
+      #about h2 {
+        font-size: 26px;
+      }
+
+      #about h3 {
+        font-size: 16px;
+      }
+    }
+  </style>
+
+  <!-- Optional AOS animation library -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
+
+  <!-- About Section -->
+  <section id="about" data-aos="fade-up">
+    <div style="flex: 1;">
+      <h2>About Us</h2>
+      <h3>
+        Shiva Public School is an educational institution dedicated to providing a high-quality learning environment that nurtures academic excellence, personal growth, and holistic development. Located in a serene and well-connected area, the school aims to create a stimulating atmosphere where students can thrive both academically and socially.
+
+        <br><br>
+        The school emphasizes a balanced approach to education, integrating academics with extracurricular activities, sports, and arts. It is known for its experienced faculty, modern infrastructure, and commitment to providing a safe and supportive environment for students. With a focus on innovation and inclusivity, Shiva Public School prepares students for the challenges of the future, helping them grow into confident, capable individuals.
+      </h3>
+    </div>
+    <img src="Logo.jpeg" alt="About School">
+  </section>
+
+  <!-- AOS Animation Script (Optional) -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 
 
 
