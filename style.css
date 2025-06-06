@@ -80,7 +80,7 @@ nav ul li a:hover {
     display: none;
     flex-direction: column;
     align-items: flex-start;
-    background-color: #6d0c0c;
+    background-color: #dddddd;
     padding: 10px;
     margin: 0;
   }
