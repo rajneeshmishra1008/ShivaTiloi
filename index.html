@@ -41,25 +41,90 @@
     📢 Admission open for 2025-26 session | WELCOME TO SHIVA PUBLIC SCHOOL | AFFILIATED TO C.B.S.E. BOARD (Affiliation Number : 2132953 & School Code : 70118) | ESTD. : 2002, TILOI, AMETHI, UTTAR PRADESDH 229309 | CALL NOW: +91 99183 19319| 🧑‍🏫 Parent-Teacher Meeting on 15th July 
   </marquee>
 </div>
+  
 
- <section class="hero" style="position: relative; text-align: center;">
-  <img src="reception.jpg" alt="School Building" style="width: 100%; height: auto;">
+ <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
 
-  <div class="hero-text" data-aos="fade-down" style="
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: rgba(239, 238, 238, 0.7);
-    padding: 20px 40px;
-    border-radius: 10px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
-    color: #000;
-    ">
-    <h1 style="margin: 0;">Welcome to Shiva Public School</h1>
-    <p style="margin: 5px 0 0;">Committed to excellence in education and holistic development</p>
-  </div>
-</section>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .hero {
+      position: relative;
+      text-align: center;
+      overflow: hidden;
+    }
+
+    .hero img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    .hero-text {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-color: rgba(239, 238, 238, 0.7);
+      padding: 20px 40px;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+      color: #000;
+      max-width: 90%;
+      text-align: center;
+    }
+
+    .hero-text h1 {
+      font-size: 2.5em;
+      margin-bottom: 10px;
+    }
+
+    .hero-text p {
+      font-size: 1.2em;
+    }
+
+    @media (max-width: 768px) {
+      .hero-text {
+        padding: 15px 25px;
+      }
+
+      .hero-text h1 {
+        font-size: 1.8em;
+      }
+
+      .hero-text p {
+        font-size: 1em;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .hero-text h1 {
+        font-size: 1.5em;
+      }
+
+      .hero-text p {
+        font-size: 0.95em;
+      }
+    }
+  </style>
+
+  <!-- Optional AOS animation CSS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <img src="reception.jpg" alt="School Building" />
+    <div class="hero-text" data-aos="fade-down">
+      <h1>Welcome to Shiva Public School</h1>
+      <p>Committed to excellence in education and holistic development</p>
+    </div>
+  </section>
 
 
 
@@ -128,10 +193,10 @@
     }
   </style>
 
+
+  
   <!-- Optional AOS animation library -->
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-
-
 
   <!-- About Section -->
   <section id="about" data-aos="fade-up">
